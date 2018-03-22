@@ -38,7 +38,12 @@ defaults:
     values:
       layout: page
 
-google_analytics: "UA-100029443-1"
+google_analytics: ""
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
 
 # Build settings
 markdown: kramdown
@@ -46,4 +51,4 @@ livereload: true     # You no longer need to include --livereload
 reload_port: 5678    # If you don't want to use the default port
 gems:
   - jekyll-feed
-exclude: [node_modules, package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock]
+exclude: [package.json, npm-debug.log, Gruntfile.js, Gemfile, Gemfile.lock]

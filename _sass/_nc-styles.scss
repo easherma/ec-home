@@ -1,48 +1,4 @@
-// Network Canvas brand colors
 
-//Primary
-$network-canvas-coral: #e2215b;
-$mustard: #f2b700;
-$light-sea-green: #00c9a2;
-$white: #ffffff;
-$slate-blue: #6b72ec;
-$navy-taupe: #2d2955;
-$cyber-grape: #3a4a75;
-$rich-black: #16152b;
-
-//Secondary
-$sea-serpent: #0fb2e2;
-$purple-pizazz: #d30fef;
-$paradise-pink: #ff3a8c;
-$cerulean-blue: #0f70ff;
-$kiwi: #70bf54;
-
-//Tertiary
-
-$neon-carrot: #f7891e;
-$barbie-pink: #ed008c;
-$tomato: #e82d3f;
-
-//Light
-
-$charcoal: #6d6f76;
-$platinum: #f2f6f7;
-$dark-platinum: #dae3e5;
-
-$font-family-base:       "Quicksand", "Raleway", "Lucida Grande", Helvetica, sans-serif;
-
-$brand-primary:             $light-sea-green;
-$brand-success:             $network-canvas-coral;
-$brand-info:                $sea-serpent;
-$brand-warning:             $mustard;
-$brand-danger:              $tomato;
-$brand-inverse:             $navy-taupe;
-
-$inverse-bg:    $white;
-$inverse-color: $rich-black;
-
-$spacer:   3rem;
-$line-height-base: 1.6;
 
 p {
   margin-bottom: 1.3rem;
@@ -159,7 +115,7 @@ html, body {
   position: relative;
   height: 350px;
   max-height: 830px;
-  background: $navy-taupe;
+  background: $brand-primary;
 
   .device-header {
     padding:0;
@@ -470,7 +426,7 @@ section {
     }
 
     a {
-      color: $network-canvas-coral;
+      color: $brand-primary;
     }
 
     #mc_embed_signup {
