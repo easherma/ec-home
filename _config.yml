@@ -14,17 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Network Canvas
-email: info@networkcanvas.com
+title: Your Title
+email: youremail@email.com
+project: Project Name
 
-description: Network Canvas - simplifying complex network data collection. A free suite of tools that facilitate cutting edge personal networks research.
+description: This is my site for my thing!
 
 baseurl: ""     # the subpath of your site, e.g. /blog
-url: "https://www.networkcanvas.com"  # the base hostname & protocol for your site, e.g. http://example.com
+url: # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   guide:
     output: true
+  sections:
+
 
 defaults:
   - scope:
