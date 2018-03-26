@@ -20,8 +20,8 @@ project: Project Name
 
 description: This is my site for my thing!
 
-baseurl: "/Network-Canvas-Web"     # the subpath of your site, e.g. /blog
-url: "https://osgisomg.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl:      # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   guide:
@@ -48,7 +48,7 @@ sass:
         - _sass
         - node_modules
 
-environment: prod
+environment: dev
 
 # Build settings
 markdown: kramdown
