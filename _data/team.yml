@@ -1,6 +1,6 @@
 - name: Joshua Melville
   title: Lead Developer
-  image: /images/josh.jpg
+  image: ./images/josh.jpg
   bio: >
     Joshua developed and designed the initial version of the Network Canvas 
     framework as part of his PhD at the [Oxford Internet Institute, University 
@@ -12,7 +12,7 @@
 
 - name: Michelle Birkett
   title: Principal Investigator
-  image: /images/michelle.jpg
+  image: ./images/michelle.jpg
   bio: >
     Michelle is faculty in the Department of Medical Social Sciences at Northwestern 
     University, and directs the [Research Program in Complex Systems and Health
@@ -24,7 +24,7 @@
 
 - name: Gregory Phillips II
   title: Principal Investigator
-  image: /images/gregory.jpg
+  image: ./images/gregory.jpg
   bio: >
     Gregory is faculty in the Department of Medical Social Sciences, and directs 
     the [Evaluation, Data Integration, and Technical Assistance (EDIT) Research 
@@ -34,11 +34,11 @@
 
 - name: Bernie Hogan
   title: Co-Investigator
-  image: /images/bernie.jpg
+  image: ./images/bernie.jpg
   bio: Bernie is a Research Fellow at the Oxford Internet Institute, a Research Associate with Nuffield College, and an Associate Member of the Department of Sociology, all at the University of Oxford. He has been involved in advancing social network research for over fifteen years. He is the lead consultant on netCanvas-R, and contributes extensive expertise in network data collection and social research methodology.
 
 - name: Patrick Janulis
   title: Co-Investigator
-  image: /images/patrick.jpg
+  image: ./images/patrick.jpg
   bio: Patrick is postdoctoral fellow at the IMPACT program. Patrick received his doctorate in Ecological-Community Psychology from Michigan State University in 2014 where he conducted research on the impact of substance use on HIV and hepatitis C virus risk behavior with a focus on advanced statistical methods. Patrick is primarily working on RADAR, contributing expertise to longitudinal network data collection within netCanvas-R. He has also coordinated interviewer training and feedback on the use of the netCanvas-R protocol.
 
