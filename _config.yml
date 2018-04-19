@@ -20,8 +20,8 @@ project: Evaluation Center
 
 description: This is my site for my thing!
 
-baseurl: "/Network-Canvas-Web"     # the subpath of your site, e.g. /blog
-url: "https://osgisomg.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"     # the subpath of your site, e.g. /blog
+url: "https://ec-center.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   guide:
