@@ -1,0 +1,15 @@
+<!-- videos -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-left justify-content-center">
+      <h1 class="section-heading" id="videos">Videos</h1>
+    </div>
+    <div class="card-deck">
+    {% for video in site.data.videos %}
+        <div class="card-body">
+            {% include youtubePlayer.html id=video.id %}
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+</section>

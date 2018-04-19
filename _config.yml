@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your Title
+title: evaluation center
 email: youremail@email.com
-project: Project Name
+project: Evaluation Center
 
 description: This is my site for my thing!
 
 baseurl: ""     # the subpath of your site, e.g. /blog
-url: "https://osgisomg.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ec-center.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   guide:
