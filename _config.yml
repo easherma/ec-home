@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your Title
+title: evaluation center
 email: youremail@email.com
-project: Project Name
+project: Evaluation Center
 
 description: This is my site for my thing!
 
