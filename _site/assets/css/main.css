@@ -6778,16 +6778,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
-@media (max-width: 991.98px) {
-  .card-deck .card {
-    display: flex;
-    flex: 100%;
-    flex-direction: column; }
-    .card-deck .card:not(:first-child) {
-      margin-left: 0; }
-    .card-deck .card:not(:last-child) {
-      margin-right: 0;
-      margin-bottom: 15px; } }
 html, body {
   font-size: 18px; }
 
@@ -6938,19 +6928,6 @@ html, body {
 
 .nc-btn-primary:hover {
   background: #00ba96; }
-
-.card {
-  z-index: 99;
-  -webkit-box-shadow: 0 0.15rem 0 #000;
-  -moz-box-shadow: 0 0.15rem 0 #000;
-  box-shadow: 0 0.15rem 0 #000;
-  background: #2577c1; }
-
-img.card-img-top {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-  padding: 20px; }
 
 #mc_embed_signup h5 {
   margin-top: 1.5em;

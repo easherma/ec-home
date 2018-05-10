@@ -54,24 +54,24 @@ $font-family-base:       "Rajdhani", "Roboto", "Lucida Grande", Helvetica, sans-
   font-size: $responsive;
 }
 
-@include media-breakpoint-down(md) {
-  .card-deck {
-    .card {
-      display: flex;
-      flex: 100%;
-      flex-direction: column;
-
-      // Selectively apply horizontal margins to cards to avoid doing the
-      // negative margin dance like our grid. This differs from the grid
-      // due to the use of margins as gutters instead of padding.
-      &:not(:first-child) { margin-left: 0; }
-      &:not(:last-child) {
-        margin-right: 0;
-        margin-bottom:15px;
-      }
-    }
-  }
-}
+// @include media-breakpoint-down(md) {
+//   .card-deck {
+//     .card {
+//       display: flex;
+//       flex: 100%;
+//       flex-direction: column;
+//
+//       // Selectively apply horizontal margins to cards to avoid doing the
+//       // negative margin dance like our grid. This differs from the grid
+//       // due to the use of margins as gutters instead of padding.
+//       &:not(:first-child) { margin-left: 0; }
+//       &:not(:last-child) {
+//         margin-right: 0;
+//         margin-bottom:15px;
+//       }
+//     }
+//   }
+// }
 
 
 // Main
@@ -227,18 +227,18 @@ $btn-font-size: 0.8rem;
 }
 
 // cards
-.card {
-  z-index:99;
-  @include box-shadow(0,0.15rem,0,#000);
-  background: $brand-primary;
-}
-
-img.card-img-top {
-  height: 200px;
-  display: block;
-  margin: 0 auto;
-  padding:20px;
-}
+// .card {
+//   z-index:99;
+//   @include box-shadow(0,0.15rem,0,#000);
+//   background: $brand-primary;
+// }
+//
+// img.card-img-top {
+//   height: 200px;
+//   display: block;
+//   margin: 0 auto;
+//   padding:20px;
+// }
 
 // Mailchimp
 #mc_embed_signup {
