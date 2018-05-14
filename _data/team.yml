@@ -1,19 +1,27 @@
-- name: Gregory Phillips II
-  title: Principal Investigator
-  image: ./images/gregory.jpg
+- name: Gregory Phillips, PhD
+  role: Director, EDIT Program
+  title: Assistant Professor of Medical Social Sciences
+  image: ./images/gregory.png
   bio: >
-    Dr. Phillips is a trained epidemiologist who brings
-    years of experience conducting HIV research focusing
-    on understanding social-, sexual-, and network-level
-    factors that drive health disparities among men who
-    have sex with men, particularly young MSM and Black MSM
+    Dr. Phillips is a trained epidemiologist who brings years of experience conducting HIV research focusing on understanding social-, sexual-, and network-level factors that drive health disparities among men who have sex with men, particularly young MSM and Black MSM.
 
-- name: Gregory Phillips II
-  title: Principal Investigator
-  image: ./images/gregory.jpg
+- name: George J Greene, PhD
+  role: Associate Director, EDIT Program
+  title: Research Assistant Professor of Medical Social Sciences
+  image: ./images/george.png
   bio: >
-    Dr. Phillips is a trained epidemiologist who brings
-    years of experience conducting HIV research focusing
-    on understanding social-, sexual-, and network-level
-    factors that drive health disparities among men who
-    have sex with men, particularly young MSM and Black MSM
+    Dr. Greene is a community psychologist with years of community-based program evaluation experience, specializing in interventions targeting health disparities of racial, ethnic, and sexual minority communities.
+
+- name: Amy K Johnson, PhD
+  role: Affiliate Faculty, EDIT Program
+  title: Research Assistant Professor of Pediatrics (Adolescent Medicine)
+  image: ./images/amy.png
+  bio: >
+    Dr. Johnson is a trained mixed methods program evaluator with a background in social work. Her interest lies in applied HIV and STI prevention and care intervention research.
+
+- name: Lauren B Beach, JD/PhD
+  role:
+  title: Postdoctoral Scholar, ISGMH
+  image: ./images/lauren.png
+  bio: >
+    Dr. Beach is a trained lawyer and molecular biologist who brings experience leading research and evaluations on how stigma affects chronic disease management and health outcomes in sexual and gender minority populations.

@@ -16,8 +16,8 @@
             </h3>
            <div class="wrapper">
              <div class="roles">
+            <div class="mb-1 text-muted">{{ person.role | escape }}</div>
             <div class="mb-1 text-muted">{{ person.title | escape }}</div>
-            <div class="mb-1 text-muted">Assistant Professor of Medical Social Sciences</div>
              </div>
 
               <p class="card-text text-dark mb-auto bio">{{ person.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>

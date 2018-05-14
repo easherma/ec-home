@@ -8,7 +8,7 @@
   margin-top: 3em;
   transition: max-height 0.15s ease-out; }
   .card:hover .bio {
-    max-height: 190px;
+    max-height: 800px;
     transition: max-height 0.25s ease-in; }
   .card:hover .roles {
     display: none; }
