@@ -1,14 +1,33 @@
 <section class="section-who">
-  <div class="container">
+
     <div class="row align-items-center justify-content-center">
       <h1 class="section-heading" id="team">Team</h1>
     </div>
 
-    <!-- <p>The team involved in the creation of <em>netCanvas-R</em> is comprised of scholars at the <a href="http://www.oii.ox.ac.uk" alt="Oxford Internet Institute" target="_blank">Oxford Internet Institute</a>, University of Oxford, and the <a href="http://www.impactprogram.org/" alt="Impact Progam" target="_blank">Impact Program</a> at Northwestern University.</p> -->
-    <div class="row">
-      {% capture intro %}{% include copy/team.md %}{% endcapture %}
-      {{ intro }}
+    <div class="row mb-2">
+                {% for person in site.data.team %}
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+
+          <img class="card-img-left flex-auto d-md-block" src={{ person.image }} style="width: 130px; height: 160px;">
+          <div class="card-body d-flex flex-column align-items-start">
+            <h3 class="mb-0">
+              <a class="text-dark">{{ person.name | escape }}</a>
+            </h3>
+           <div class="wrapper">
+             <div class="roles">
+            <div class="mb-1 text-muted">{{ person.role | escape }}</div>
+            <div class="mb-1 text-muted">{{ person.title | escape }}</div>
+             </div>
+
+              <p class="card-text text-dark mb-auto bio">{{ person.bio | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            </div>
+    <!--         <a href="#">Continue reading</a> -->
           </div>
 
-  </div>
+        </div>
+
+      </div>
+                {% endfor %}
+    </div>
 </section>
